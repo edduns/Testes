@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background:#8f9fb2;
+}
+
+.cadastro-produto{
+	text-align: center;
+	background: white;
+	width: 560px;
+	height: 460px;
+	margin: 100px 400px  400px;
+	padding-top: 20px;
+}
+
+h2{
+	color: #243b57;
+	text-align: center;
+	margin-bottom: 10px;
+}
+input{
+	width:400px;
+	height:50px;
+	margin:10px;
+	border: none;
+	border-bottom:  3px solid aliceblue;
+}
+
+select{
+	width:400px;
+	height:50px;
+	margin:10px;
+	border: none;
+	border-bottom:  3px solid aliceblue;
+}
+#botao-cadastro{
+	background: #112a48;
+	color: white;
+	border:0;
+	border-radius: 2px;
+}
+#produto{
+	background-image:  
+}
+  input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
